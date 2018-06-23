@@ -1,0 +1,95 @@
+body{
+    background-color:#fafafa;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration:none; 
+}
+
+
+
+
+.form-wrapper .separator{
+    width:40%;
+    margin:0 auto; 
+    margin-top:10px;
+    margin-bottom:10px;
+    position: relative;
+}
+
+.form-wrapper .separator span.line{
+    position: absolute;
+    width:100px;
+    height: 1px;
+    display: block;
+    background-color:#c7c7c7;
+    top:10px; 
+}
+.form-wrapper .separator span.line-left{
+    left:0px; 
+}
+
+.form-wrapper .separator span.line-right{
+    right:0px;
+}
+
+
+
+.form-wrapper .separator span.text{
+    font-size:13px; 
+    color:#999; 
+}
+
+
+
+
+/* Footer
+    =======================================  */
+footer{
+    max-width: 980px;
+    margin:0 auto;
+    margin-top: 40px;
+    margin-bottom:60px; 
+}
+
+footer:before,
+footer:after{
+    content: '';
+    display:block; 
+}
+footer:after{
+    clear: both;
+}
+
+
+/* site links */
+footer .sites-links{
+    float:left; 
+}
+footer .sites-links,
+footer .sites-links{
+    content: '';
+    display:block; 
+}
+footer .sites-links{
+    clear: both;
+}
+
+footer .sites-links li{
+    float:left;
+    margin-right: 10px;
+}
+footer .sites-links li a{
+    font-size:13px;
+    color:#003596;
+    font-weight:300;   
+}
+
+
+/* instagram brand */
+footer .instagram-brand{
+    float: right;
+    color:#999; 
+    font-size:14px; 
+}

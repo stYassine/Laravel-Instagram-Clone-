@@ -1,0 +1,242 @@
+/* Main
+    =======================================  */
+main{
+    max-width: 980px;
+    margin:0 auto;
+    margin-top: 15px; 
+    margin-bottom: 80px; 
+}
+main:before,
+main:after{
+    content:'';
+    display: block; 
+}
+main:after{
+    clear: both;
+}
+
+
+.brand-name{
+}
+.brand-name img{ 
+    max-width:180px;
+}
+
+
+/** Form Section
+    ==============  **/
+main .form-section{
+    max-width:980px;
+}
+
+/* form wrapper */
+main .form-section .form-wrapper{
+    background-color:#FFF;
+    border:solid 1px #e6e6e6;
+    max-width: 350px;
+    text-align:center; 
+    padding:30px 0px;
+    margin:0 auto; 
+}
+
+
+/* Form */
+main .form-section .form-wrapper form{
+    width:80%;
+    margin:0 auto;  
+}
+
+/* text input */
+main .form-section .form-wrapper form input[type="text"],
+main .form-section .form-wrapper form input[type="email"],
+main .form-section .form-wrapper form input[type="password"]{
+    display: block;
+    width:99%;
+    margin-bottom:5px;
+    height:38px;
+    border:solid 1px #e6e6e6;
+    border-radius:2px;
+    background-color:#fafafa;
+    padding-left:10px;     
+}
+
+/* sign up button */
+main .form-section .form-wrapper form button{
+    background-color:#3897f0;
+    color:#FFF;
+    padding:5px;   
+    width:99%;
+    border-radius:2px;
+    border:none;
+    margin-top:10px; 
+}
+
+
+
+/* login with fb */
+main .form-section .form-wrapper #login-with-fb{
+    background-color:#3897f0;
+    color:#FFFFFF;
+    border:none;
+    padding:5px;
+    text-align:center;  
+    width:80%;
+    margin:0 auto;
+    margin-top:7px;  
+    margin-bottom:7px;  
+    border-radius:2px;
+}
+
+/* Terms */
+p.terms{
+    width:60%;
+    margin:0 auto;
+    color:#999999;
+    line-height:20px; 
+    margin-top:15px;
+    font-size:12px;     
+}
+
+p.terms a{ 
+    color:#999999; 
+}
+
+
+/* have account */
+main .form-section .have-account-wrapper{
+    background-color:#FFF;
+    border:solid 1px #e6e6e6;
+    max-width: 350px;
+    text-align:center; 
+    padding:20px 0px;
+    margin:0 auto; 
+    margin-top: 10px;
+    font-size:14px; 
+}
+
+main .form-section .have-account-wrapper p a{
+    color: #3897f0;
+}
+
+
+
+/* get the app wrapper */
+main .form-section .get-the-app-wrapper{
+    text-align:center;  
+    max-width: 380px;
+    margin:0 auto; 
+    margin-top: 30px;
+}
+main .form-section .get-the-app-wrapper p{
+    margin-bottom:15px; 
+    font-size: 14px;
+}
+
+
+
+main .form-section .get-the-app-wrapper img{
+    width:120px;
+    height: 40px; 
+}
+
+
+
+
+
+
+
+/** ========================================================================
+    Media Queries
+    ======================================================================== **/
+
+
+
+
+
+/** =================================================
+    320px and larger
+    ================================================= **/
+    @media only screen and (min-width : 320px) {
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+/** =================================================
+    480px and larger
+    ================================================= **/
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+/** =================================================
+    768px and larger
+    ================================================= **/
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        
+        
+     /* single post */
+    .posts_wrapper_container .single_post{
+        float: left;
+        width:31%;
+        height:290px;
+        margin-bottom:26px;
+        margin-right:20px;
+    }
+
+        
+
+        
+        
+
+}
+    
+    
+    
+    
+/** =================================================
+    992px and larger
+    ================================================= **/
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    
+        
+        
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+/** =================================================
+    1200px and larger
+    ================================================= **/
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    
+    
+    
+    
+    
+    
+}
